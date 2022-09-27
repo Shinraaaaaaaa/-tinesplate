@@ -57,8 +57,8 @@ a {
     height: 100%;
     max-width: 1300px;
     padding-top: 1px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .brand {
     color: yellow;
@@ -149,19 +149,19 @@ a {
 /* Dish Section */
 div.image {
     margin: 10px;
-    border: 4px solid white;
+    border: 4px solid black;
     float: right;
     width: 140px;
 }  
 div.image:hover {
-    border:4px solid yellow;
+    border:4px solid white;
 }  
 div.image img {
     width: 100%;
     height: auto;
 }
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 /* End Dish Section */
@@ -170,13 +170,13 @@ div.desc {
 #menu .menu {
     flex-direction: column;
     text-align: center;
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 100px 0;
 }
 #menu .section-title {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 500;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -196,22 +196,16 @@ div.desc {
     justify-content: center;
     flex-direction: column;
 }
-#menu .menu-item h1 {
-    color: white;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
 #menu .menu-item h2 {
     color: white;
     font-size: 1.5rem;
-    text-transform: uppercase;
     margin-bottom: 10px;
 }
 #menu .menu-item h3 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /* End Menu Section */
 
@@ -219,13 +213,13 @@ div.desc {
 #drink .drink {
     flex-direction: column;
     text-align: center;
-    max-width: 320px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 100px 0;
 }
 #drink .section-title {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 500;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -245,16 +239,10 @@ div.desc {
     justify-content: center;
     flex-direction: column;
 }
-#drink .drink-item h1 {
-    color: white;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
 #drink .drink-item h2 {
     color: white;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #drink .drink-item h3 {
     color: white;
@@ -281,16 +269,16 @@ div.desc {
     color: white;
 }
 #about .col-right h1 {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 500;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
 }
 #about .col-right p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -323,8 +311,8 @@ div.desc {
     color: white;
 }
 #contact .section-title {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 500;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -332,7 +320,7 @@ div.desc {
     text-align: center;
 }
 #contact .contact-items {
-    width: 350px;
+    width: 400px;
     margin-left: 32%;
 }
 #contact .contact-item {
@@ -358,12 +346,12 @@ div.desc {
     margin-bottom: 10px;
 }
 #contact .contact-info h1 { 
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 5px;   
 }
 #contact .contact-info h2 { 
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 500;
 }
@@ -446,15 +434,20 @@ div.desc {
     /* End Hero */
 
     /* Menu */
-    #menu .menu {
-        max-width: 700px;
-    }
     #menu .section-title {
-        font-size: 4rem;
-        font-weight: 400;
+        font-size: 5rem;
+        margin-bottom: 20px;
     }
     #menu .menu-item {
-        flex-basis: 92%;
+        flex-basis: 80%;
+    }
+    #menu .menu-item h2 {
+        font-size: 1.5rem;
+    }
+    #menu .menu-item h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
     }
     /* End Menu */
 
@@ -468,6 +461,12 @@ div.desc {
     }
     #drink .drink-item {
         flex-basis: 80%;
+    }
+    #drink .drink-item h2 {
+        font-size: 1.8rem;
+    }
+    #drink .drink-item h3 {
+        font-size: 1.5rem;
     }
     /* End Drink */
 
@@ -499,40 +498,74 @@ div.desc {
     }
     /* Header */
     .brand {
-        font-size: 15px;
+        font-size: 20px;
+    }
+    #header .header {
+        min-height: 8vh;
+        background-color: rgba(31, 30, 30, 0.24);
+    }
+    #header .nav-bar {
+        max-width: 2000px;
+        padding-left: 15%;
+        padding-right: 10%;
     }
     #header .nav-list ul li {
-        padding: 10px 20px;
+        padding: 30px 30px;
     }
     #header .nav-list ul li a {
-        font-size: medium;
+        font-size: large;
     }
     /* End Header */
+
     /* Hero */
     #hero h1 {
         font-size: 5rem;
     }
     /* End Hero */
 
+    /* Dish Section */
+    div.image {
+        width: 200px;
+    }  
+    div.image:hover {
+        border:4px solid white;
+    }  
+    /* End Dish Section */
+   
     /* Menu */
-    #menu .menu {
-        max-width: 1200px;
+    #menu .section-title {
+        font-size: 6rem;
+        margin-bottom: 30px;
     }
     #menu .menu-item {
-        flex-basis: 80%;
+        flex-basis: 85%;
+        margin-right: 10%;
+        
+    }
+    #menu .menu-item h1 {
+        font-size: 2rem;
+    }
+    #menu .menu-item h2 {
+        font-size: 2rem;
     }
     /* End Menu */
 
     /* Drink */
     #drink .section-title {
-        font-size: 4rem;
-        font-weight: 400;
+        font-size: 6rem;
+        margin-bottom: 30px;
     }
     #drink .drink {
         max-width: 1500px;
     }
     #drink .drink-item {
         flex-basis: 100%;
+    }
+    #drink .drink-item h2 {
+        font-size: 2rem;
+    }
+    #drink .drink-item h3 {
+        font-size: 1.5rem;
     }
     /* End Drink */
 
@@ -541,16 +574,32 @@ div.desc {
         padding: 15px 20px;
         font-size:1.5rem;
     }
+    #about .col-right h1 {
+        font-size: 6rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
     /* End About */
 
     /* Contact */
     #contact .section-title {
-        font-size: 4rem;
-        font-weight: 400;
+        font-size: 6rem;
+        font-weight: 500;
     }
     #contact .contact-items {
         width: 380px;
         margin-left: 12%;
+    }
+    #contact .icon {
+        margin-bottom: 20px;
+    }
+    #contact .contact-info h1 { 
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 10px;   
+    }
+    #contact .contact-info h2 { 
+        font-size: 2rem;
     }
     /* End Contact */
 }
